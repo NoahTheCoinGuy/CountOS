@@ -1,7 +1,9 @@
 .header {
   position: sticky;
   top: 0;
-  padding: 2px 2px;
+  height: 18px;
+  padding: 0; 
+  line-height: 18px;
   background: #0066CC;
   color: #fff;
 }
