@@ -4,5 +4,10 @@
   padding: 2px 2px;
   background: #0066CC;
   color: #fff;
-  z-index: 9999;
+}
+
+.header p {
+  background: transparent;
+  margin: 0;
+  padding: 0;
 }
