@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica;
+  font-family: Helvetica, Sans-serif;
 } 
 
 .header {
@@ -9,11 +9,13 @@ body {
   background: #0066CC;
   color: #fff;
   display: flex;
-  align-items: center;  
-  justify-content: center; 
-  padding: 0;            
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   z-index: 9999;
+  line-height: 16px; /* add this */
 }
+
 
 .header p {
   margin: 0;
