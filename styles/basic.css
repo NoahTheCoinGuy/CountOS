@@ -5,7 +5,7 @@ body {
 .header {
   position: sticky;
   top: 0;
-  height: 16px;
+  height: 18px;
   background: #0066CC;
   color: #fff;
   display: flex;
