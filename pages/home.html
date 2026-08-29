@@ -10,59 +10,51 @@
     </div>
 
     <main class="countdown-grid">
+
       <!-- Row 1 -->
       <section class="countdown-row">
-        <div class="countdown-card" id="countdown-halloween">
+        <div class="countdown-card" id="cd-halloween">
           <h2>Halloween</h2>
-          <p class="countdown-label">Time remaining:</p>
-          <p class="countdown-value">MM-DD-HH-MM-SS</p>
+          <p class="cd-value">MM-DD-HH-MM-SS</p>
         </div>
 
-        <div class="countdown-card" id="countdown-christmas">
+        <div class="countdown-card" id="cd-christmas">
           <h2>Christmas</h2>
-          <p class="countdown-label">Time remaining:</p>
-          <p class="countdown-value">MM-DD-HH-MM-SS</p>
+          <p class="cd-value">MM-DD-HH-MM-SS</p>
         </div>
       </section>
 
       <!-- Row 2 -->
       <section class="countdown-row">
-        <div class="countdown-card" id="countdown-easter">
+        <div class="countdown-card" id="cd-easter">
           <h2>Easter</h2>
-          <p class="countdown-label">Time remaining:</p>
-          <p class="countdown-value">MM-DD-HH-MM-SS</p>
+          <p class="cd-value">MM-DD-HH-MM-SS</p>
         </div>
 
-        <div class="countdown-card" id="countdown-newyear">
+        <div class="countdown-card" id="cd-newyear">
           <h2>New Year</h2>
-          <p class="countdown-label">Time remaining:</p>
-          <p class="countdown-value">MM-DD-HH-MM-SS</p>
+          <p class="cd-value">MM-DD-HH-MM-SS</p>
         </div>
       </section>
 
       <!-- Row 3 -->
       <section class="countdown-row">
-        <div class="countdown-card" id="countdown-thanksgiving">
+        <div class="countdown-card" id="cd-thanksgiving">
           <h2>Thanksgiving</h2>
-          <p class="countdown-label">Time remaining:</p>
-          <p class="countdown-value">MM-DD-HH-MM-SS</p>
+          <p class="cd-value">MM-DD-HH-MM-SS</p>
         </div>
 
-        <div class="countdown-card" id="countdown-custom">
+        <div class="countdown-card" id="cd-custom">
           <h2>Custom</h2>
-          <form class="countdown-custom-form">
-            <label for="custom-date">Target date (MM-DD-YYYY):</label>
-            <input
-              type="text"
-              id="custom-date"
-              name="custom-date"
-              placeholder="mm-dd-yyyy"
-            >
-          </form>
-          <p class="countdown-label">Time remaining:</p>
-          <p class="countdown-value">MM-DD-HH-MM-SS</p>
+          <label for="custom-date">Target date:</label>
+          <input type="text" id="custom-date" placeholder="mm-dd-yyyy">
+          <p class="cd-value">MM-DD-HH-MM-SS</p>
         </div>
       </section>
+
     </main>
+
+    <!-- Connect JS countdown engine -->
+    <script src="/CountOS/scripts/cd.js"></script>
   </body>
 </html>
