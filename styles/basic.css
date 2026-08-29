@@ -5,7 +5,7 @@ body {
 .header {
   position: sticky;
   top: 0;
-  height: 18px;
+  height: 20px;
   background: #0066CC;
   color: #fff;
   display: flex;
@@ -13,7 +13,7 @@ body {
   justify-content: center;
   padding: 0;
   z-index: 9999;
-  line-height: 16px; /* add this */
+  line-height: 18px;
 }
 
 
