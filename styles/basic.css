@@ -1,6 +1,8 @@
 body {
   font-family: Helvetica, Sans-serif;
-  background-color: #E9F2FC;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto; /* ensures page scrolls */
 }
 
 /* Sticky header */
@@ -29,27 +31,31 @@ body {
 .countdown-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  padding: 20px;
+  gap: 20px;              /* even spacing between tiles */
+  padding: 20px;          /* spacing around grid */
 }
 
-/* Each row is automatically handled by the grid */
+/* Countdown tiles */
 .countdown-card {
   border: 1px solid #ccc;
   padding: 15px;
   border-radius: 6px;
   background: #f9f9f9;
+  height: 185px;          /* fixed height */
+  box-sizing: border-box; /* ensures padding doesn't break height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* evenly distributes content */
 }
 
 .countdown-card h2 {
-  margin: 0 0 10px 0;
+  margin: 0;
   font-size: 20px;
 }
 
 .cd-value {
   font-size: 18px;
   font-weight: bold;
-  margin-top: 10px;
 }
 
 /* Custom input styling */
